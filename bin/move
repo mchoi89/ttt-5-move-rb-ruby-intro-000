@@ -12,11 +12,4 @@ input = gets.strip.to_i
 input_to_index (input) 
 
 move(board, input - 1, "X")
-def update_array_at_with(array,index,value)
-  array[index] = value
-end
-
-update_array_at_with(board, 0, "X")
-
-def #display_board
-end
+display_board(board)
