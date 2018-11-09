@@ -12,7 +12,7 @@ puts "Where would you like to go?"
 gets.strip = input 
 #input_to_index = index 
 
-#move
+def #move
 #input_to_index("1"-"9")
 
 board = [" ", " ", " "]
